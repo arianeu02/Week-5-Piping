@@ -35,7 +35,7 @@ library(tidyverse)
 mysample<-sample_n(airline_safety, size=15, replace = FALSE, weight = NULL, .env = NULL)
 
 #TASK: Save the new sample as a csv file
-write.csv(mysample,file=mysample.csv)
+write.csv(mysample,file= "mysample.csv")
 
 #Now let's have some fun with *piping*
 
